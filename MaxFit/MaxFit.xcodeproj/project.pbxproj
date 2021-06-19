@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFE704ED26690E5C00F4D87A /* MaxFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE704EC26690E5C00F4D87A /* MaxFitApp.swift */; };
+		FFE704EF26690E5C00F4D87A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE704EE26690E5C00F4D87A /* ContentView.swift */; };
+		FFE704F126690E5F00F4D87A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE704F026690E5F00F4D87A /* Assets.xcassets */; };
+		FFE704F426690E5F00F4D87A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE704F326690E5F00F4D87A /* Preview Assets.xcassets */; };
+		FFE704FF26690E5F00F4D87A /* MaxFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE704FE26690E5F00F4D87A /* MaxFitTests.swift */; };
+		FFE7050A26690E5F00F4D87A /* MaxFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE7050926690E5F00F4D87A /* MaxFitUITests.swift */; };
+		FFE705182669147400F4D87A /* UserImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE705172669147400F4D87A /* UserImage.swift */; };
+		FFE7052A266A21C100F4D87A /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE70529266A21C100F4D87A /* LikeButton.swift */; };
+		FFE70532266A5ADC00F4D87A /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE70531266A5ADC00F4D87A /* profile.swift */; };
+		FFE70539266A67CB00F4D87A /* SideMenuUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE70538266A67CB00F4D87A /* SideMenuUi.swift */; };
+		FFE70543266B666300F4D87A /* fillCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE70542266B666300F4D87A /* fillCircle.swift */; };
+		FFE70548266CAD2D00F4D87A /* activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE70547266CAD2D00F4D87A /* activity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFE704FB26690E5F00F4D87A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE704E126690E5C00F4D87A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFE704E826690E5C00F4D87A;
+			remoteInfo = MaxFit;
+		};
+		FFE7050626690E5F00F4D87A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE704E126690E5C00F4D87A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFE704E826690E5C00F4D87A;
+			remoteInfo = MaxFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFE704E926690E5C00F4D87A /* MaxFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE704EC26690E5C00F4D87A /* MaxFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxFitApp.swift; sourceTree = "<group>"; };
+		FFE704EE26690E5C00F4D87A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFE704F026690E5F00F4D87A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFE704F326690E5F00F4D87A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFE704F526690E5F00F4D87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE704FA26690E5F00F4D87A /* MaxFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE704FE26690E5F00F4D87A /* MaxFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxFitTests.swift; sourceTree = "<group>"; };
+		FFE7050026690E5F00F4D87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE7050526690E5F00F4D87A /* MaxFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE7050926690E5F00F4D87A /* MaxFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxFitUITests.swift; sourceTree = "<group>"; };
+		FFE7050B26690E5F00F4D87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE705172669147400F4D87A /* UserImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImage.swift; sourceTree = "<group>"; };
+		FFE70529266A21C100F4D87A /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
+		FFE70531266A5ADC00F4D87A /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
+		FFE70538266A67CB00F4D87A /* SideMenuUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuUi.swift; sourceTree = "<group>"; };
+		FFE70542266B666300F4D87A /* fillCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fillCircle.swift; sourceTree = "<group>"; };
+		FFE70547266CAD2D00F4D87A /* activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = activity.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFE704E626690E5C00F4D87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE704F726690E5F00F4D87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE7050226690E5F00F4D87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFE704E026690E5C00F4D87A = {
+			isa = PBXGroup;
+			children = (
+				FFE704EB26690E5C00F4D87A /* MaxFit */,
+				FFE704FD26690E5F00F4D87A /* MaxFitTests */,
+				FFE7050826690E5F00F4D87A /* MaxFitUITests */,
+				FFE704EA26690E5C00F4D87A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFE704EA26690E5C00F4D87A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFE704E926690E5C00F4D87A /* MaxFit.app */,
+				FFE704FA26690E5F00F4D87A /* MaxFitTests.xctest */,
+				FFE7050526690E5F00F4D87A /* MaxFitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFE704EB26690E5C00F4D87A /* MaxFit */ = {
+			isa = PBXGroup;
+			children = (
+				FFE7052F266A5A2E00F4D87A /* View */,
+				FFE704EC26690E5C00F4D87A /* MaxFitApp.swift */,
+				FFE704F026690E5F00F4D87A /* Assets.xcassets */,
+				FFE704F526690E5F00F4D87A /* Info.plist */,
+				FFE704F226690E5F00F4D87A /* Preview Content */,
+			);
+			path = MaxFit;
+			sourceTree = "<group>";
+		};
+		FFE704F226690E5F00F4D87A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FFE704F326690E5F00F4D87A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FFE704FD26690E5F00F4D87A /* MaxFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFE704FE26690E5F00F4D87A /* MaxFitTests.swift */,
+				FFE7050026690E5F00F4D87A /* Info.plist */,
+			);
+			path = MaxFitTests;
+			sourceTree = "<group>";
+		};
+		FFE7050826690E5F00F4D87A /* MaxFitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFE7050926690E5F00F4D87A /* MaxFitUITests.swift */,
+				FFE7050B26690E5F00F4D87A /* Info.plist */,
+			);
+			path = MaxFitUITests;
+			sourceTree = "<group>";
+		};
+		FFE7052F266A5A2E00F4D87A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFE70544266CACF700F4D87A /* Activity */,
+				FFE70535266A5B7300F4D87A /* Menu */,
+				FFE70530266A5AB500F4D87A /* UserProfile */,
+				FFE704EE26690E5C00F4D87A /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FFE70530266A5AB500F4D87A /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				FFE705172669147400F4D87A /* UserImage.swift */,
+				FFE70529266A21C100F4D87A /* LikeButton.swift */,
+				FFE70531266A5ADC00F4D87A /* profile.swift */,
+				FFE70542266B666300F4D87A /* fillCircle.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		FFE70535266A5B7300F4D87A /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FFE70538266A67CB00F4D87A /* SideMenuUi.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		FFE70544266CACF700F4D87A /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				FFE70547266CAD2D00F4D87A /* activity.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFE704E826690E5C00F4D87A /* MaxFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE7050E26690E5F00F4D87A /* Build configuration list for PBXNativeTarget "MaxFit" */;
+			buildPhases = (
+				FFE704E526690E5C00F4D87A /* Sources */,
+				FFE704E626690E5C00F4D87A /* Frameworks */,
+				FFE704E726690E5C00F4D87A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaxFit;
+			productName = MaxFit;
+			productReference = FFE704E926690E5C00F4D87A /* MaxFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFE704F926690E5F00F4D87A /* MaxFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE7051126690E5F00F4D87A /* Build configuration list for PBXNativeTarget "MaxFitTests" */;
+			buildPhases = (
+				FFE704F626690E5F00F4D87A /* Sources */,
+				FFE704F726690E5F00F4D87A /* Frameworks */,
+				FFE704F826690E5F00F4D87A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE704FC26690E5F00F4D87A /* PBXTargetDependency */,
+			);
+			name = MaxFitTests;
+			productName = MaxFitTests;
+			productReference = FFE704FA26690E5F00F4D87A /* MaxFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFE7050426690E5F00F4D87A /* MaxFitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE7051426690E5F00F4D87A /* Build configuration list for PBXNativeTarget "MaxFitUITests" */;
+			buildPhases = (
+				FFE7050126690E5F00F4D87A /* Sources */,
+				FFE7050226690E5F00F4D87A /* Frameworks */,
+				FFE7050326690E5F00F4D87A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE7050726690E5F00F4D87A /* PBXTargetDependency */,
+			);
+			name = MaxFitUITests;
+			productName = MaxFitUITests;
+			productReference = FFE7050526690E5F00F4D87A /* MaxFitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFE704E126690E5C00F4D87A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FFE704E826690E5C00F4D87A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					FFE704F926690E5F00F4D87A = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FFE704E826690E5C00F4D87A;
+					};
+					FFE7050426690E5F00F4D87A = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FFE704E826690E5C00F4D87A;
+					};
+				};
+			};
+			buildConfigurationList = FFE704E426690E5C00F4D87A /* Build configuration list for PBXProject "MaxFit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFE704E026690E5C00F4D87A;
+			productRefGroup = FFE704EA26690E5C00F4D87A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFE704E826690E5C00F4D87A /* MaxFit */,
+				FFE704F926690E5F00F4D87A /* MaxFitTests */,
+				FFE7050426690E5F00F4D87A /* MaxFitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFE704E726690E5C00F4D87A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE704F426690E5F00F4D87A /* Preview Assets.xcassets in Resources */,
+				FFE704F126690E5F00F4D87A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE704F826690E5F00F4D87A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE7050326690E5F00F4D87A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFE704E526690E5C00F4D87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE704EF26690E5C00F4D87A /* ContentView.swift in Sources */,
+				FFE70543266B666300F4D87A /* fillCircle.swift in Sources */,
+				FFE704ED26690E5C00F4D87A /* MaxFitApp.swift in Sources */,
+				FFE70539266A67CB00F4D87A /* SideMenuUi.swift in Sources */,
+				FFE7052A266A21C100F4D87A /* LikeButton.swift in Sources */,
+				FFE70532266A5ADC00F4D87A /* profile.swift in Sources */,
+				FFE70548266CAD2D00F4D87A /* activity.swift in Sources */,
+				FFE705182669147400F4D87A /* UserImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE704F626690E5F00F4D87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE704FF26690E5F00F4D87A /* MaxFitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE7050126690E5F00F4D87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE7050A26690E5F00F4D87A /* MaxFitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFE704FC26690E5F00F4D87A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFE704E826690E5C00F4D87A /* MaxFit */;
+			targetProxy = FFE704FB26690E5F00F4D87A /* PBXContainerItemProxy */;
+		};
+		FFE7050726690E5F00F4D87A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFE704E826690E5C00F4D87A /* MaxFit */;
+			targetProxy = FFE7050626690E5F00F4D87A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FFE7050C26690E5F00F4D87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFE7050D26690E5F00F4D87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFE7050F26690E5F00F4D87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MaxFit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MaxFit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chrislin.MaxFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFE7051026690E5F00F4D87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MaxFit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MaxFit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chrislin.MaxFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFE7051226690E5F00F4D87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaxFitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chrislin.MaxFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxFit.app/MaxFit";
+			};
+			name = Debug;
+		};
+		FFE7051326690E5F00F4D87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaxFitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chrislin.MaxFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxFit.app/MaxFit";
+			};
+			name = Release;
+		};
+		FFE7051526690E5F00F4D87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaxFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chrislin.MaxFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaxFit;
+			};
+			name = Debug;
+		};
+		FFE7051626690E5F00F4D87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaxFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chrislin.MaxFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaxFit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFE704E426690E5C00F4D87A /* Build configuration list for PBXProject "MaxFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE7050C26690E5F00F4D87A /* Debug */,
+				FFE7050D26690E5F00F4D87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE7050E26690E5F00F4D87A /* Build configuration list for PBXNativeTarget "MaxFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE7050F26690E5F00F4D87A /* Debug */,
+				FFE7051026690E5F00F4D87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE7051126690E5F00F4D87A /* Build configuration list for PBXNativeTarget "MaxFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE7051226690E5F00F4D87A /* Debug */,
+				FFE7051326690E5F00F4D87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE7051426690E5F00F4D87A /* Build configuration list for PBXNativeTarget "MaxFitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE7051526690E5F00F4D87A /* Debug */,
+				FFE7051626690E5F00F4D87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFE704E126690E5C00F4D87A /* Project object */;
+}
